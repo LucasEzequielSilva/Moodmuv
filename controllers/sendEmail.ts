@@ -25,7 +25,7 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
 		<div style="padding: .5rem 1rem;">
 		  <h4 style="color:black;font-weight: bold; font-size: large; margin:.5rem;">Verifica tu correo electrónico</h4>
 		  <p style="color:black;margin-bottom:1rem;font-size:small">Hola Muv, verifica tu correo para tener acceso a mas funcionalidades de Moodmuv</p>
-		  <a style="width:margin-top:1rem;background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%); border-radius: .1rem; text-align: center; font-weight: bold; color: #fff; padding: .5rem;" href='http://moodmuv-back-production.up.railway.app/api/auth/${verify}/${uniqueString}'>Verificar</a>
+		  <a style="width:100%;margin-top:1rem;background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%); border-radius: .1rem; text-align: center; font-weight: bold; color: #fff; padding: .5rem;" href='http://moodmuv-back-production.up.railway.app/api/auth/${verify}/${uniqueString}'>Verificar</a>
 		</div>
 	  </div>
 `
