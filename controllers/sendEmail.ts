@@ -17,8 +17,7 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
 		to: email,
 		subject: "Hello, friend! Let's verify your email!",
 		html: `
-		<!doctype html>
-<html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +35,6 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
     </div>
   </div>
 </body>
-</html>
 		`
 	}
 
