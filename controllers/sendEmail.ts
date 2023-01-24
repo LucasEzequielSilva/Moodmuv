@@ -17,9 +17,9 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
 		to: email,
 		subject: "Hello, friend! Let's verify your email!",
 		html: `  <div style="background-color: invisible; border-radius: 1rem; width: 30rem; height: 15rem; box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
-		<div style="width: 100%; height: 40%; background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%);
+		<div style="display:flex;justify-content:center;align-items:center;width: 100%; height: 40%; background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%);
 		border-radius: 1rem  1rem 0 0; display: flex; justify-content: center; align-items: center;">
-		  <img style="width:4.5rem;" src="https://i.ibb.co/dWTTRPp/logo-MOOD-MUV-ok-1-1.png" alt="logo-MOOD-MUV-ok-1-1" border="0">
+		  <img style="width:4.5rem; margin:auto;" src="https://i.ibb.co/dWTTRPp/logo-MOOD-MUV-ok-1-1.png" alt="logo-MOOD-MUV-ok-1-1" border="0">
 		</div>
 		<div style="gap: .5rem; padding: .5rem 1rem;">
 		  <h4 style="font-weight: bold; font-size: large;">Verifica tu correo electrónico</h4>
