@@ -23,9 +23,9 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
 		  <img style="width:4.5rem; margin:auto;padding: .2rem;" src="https://i.ibb.co/dWTTRPp/logo-MOOD-MUV-ok-1-1.png" alt="logo-MOOD-MUV-ok-1-1" border="0">
 		</div>
 		<div style="padding: .5rem 1rem;">
-		  <h4 style="font-weight: bold; font-size: large; margin:.5rem;">Verifica tu correo electrónico</h4>
-		  <p style="margin-bottom:1rem;font-size:small">Hola Muv, verifica tu correo para tener acceso a mas funcionalidades de Moodmuv</p>
-		  <a style="margin-top:1rem;background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%); border-radius: .1rem; text-align: center; font-weight: bold; color: #fff; padding: .5rem;" href='http://moodmuv-back-production.up.railway.app/api/auth/${verify}/${uniqueString}'>Verificar</a>
+		  <h4 style="color:black;font-weight: bold; font-size: large; margin:.5rem;">Verifica tu correo electrónico</h4>
+		  <p style="color:black;margin-bottom:1rem;font-size:small">Hola Muv, verifica tu correo para tener acceso a mas funcionalidades de Moodmuv</p>
+		  <a style="width:margin-top:1rem;background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%); border-radius: .1rem; text-align: center; font-weight: bold; color: #fff; padding: .5rem;" href='http://moodmuv-back-production.up.railway.app/api/auth/${verify}/${uniqueString}'>Verificar</a>
 		</div>
 	  </div>
 `

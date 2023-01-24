@@ -93,7 +93,7 @@ const studentControllers = {
 		if (student) {
 			student.verifEmail = true;
 			await student.save();
-			res.redirect("http://localhost:5173/");
+			res.redirect("https://moodmuv-front-nine.vercel.app/");
 
 		} else {
 			res.json({ success: false, response: "Email sin verificar" });
