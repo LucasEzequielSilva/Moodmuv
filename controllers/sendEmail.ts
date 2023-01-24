@@ -27,7 +27,7 @@ const sendEmail = async (email:string, uniqueString:string, verify:string) => {
 		  <p style="font-size:small">Hola Muv, verifica tu correo para tener acceso a mas funcionalidades de Moodmuv</p>
 		  <a style="background: linear-gradient(88.35deg, #573E81 0.84%, #6E5D8B 98.46%); border-radius: .1rem; text-align: center; font-weight: bold; color: #fff; padding: .5rem;" href='http://moodmuv-back-production.up.railway.app/api/auth/${verify}/${uniqueString}'>Verificar</a>
 		</div>
-	  </div>		`
+	  </div>		 `
 	}
 
 	await transporter.sendMail(mailOptions, function (error:Error, response:Response) {
