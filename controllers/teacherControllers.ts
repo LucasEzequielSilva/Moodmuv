@@ -31,7 +31,8 @@ interface teacherDTO{
 
 let adminEmails = [
 	'acroyogachilenorte@gmail.com',
-	'thiagochiesa4444@gmail.com'
+	'thiagochiesa4444@gmail.com',
+	'luxassilva@gmail.com'
 ]
 
 const teacherControllers = {

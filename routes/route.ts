@@ -22,7 +22,7 @@ import databaseControllers from '../controllers/databaseControllers';
 let {get_students, get_student, set_student, delete_student, modify_student, verify_email_student, sign_up_student, } = studentControllers
 let {get_teachers, get_teacher, set_teacher, delete_teacher, modify_teacher, verify_email_teacher, sign_up_teacher, add_event_calendar, delete_event_calendar, add_student_calendar, delete_student_calendar,} = teacherControllers
 let {verify_token, login_both} = userControllers
-let {get_activities, get_activity, set_activity, delete_activity, modify_activity,} = activityControllers
+let {get_activities, get_activity, set_activity, delete_activity, modify_activity,get_activities_admin} = activityControllers
 let { set_metadata_videos, set_metadata_files, get_bkgImage_activity, get_avatarImage_profile, upload_avatarImage_profile, get_video, uploadVideo, deleteAllActivitiesPlusImages, deleteActivityImage, deleteVideos} = databaseControllers
 
 
@@ -114,6 +114,9 @@ Router.route('/activity')
 .get(get_activities)
 .post(set_activity)
 .put(modify_activity)
+
+Router.route("/activity/admin")
+.get(get_activities_admin)
 
 Router.route('/activity/:id')
 .get(get_activity)
